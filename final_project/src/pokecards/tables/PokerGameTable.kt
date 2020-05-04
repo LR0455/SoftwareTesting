@@ -29,8 +29,8 @@ class PokerGameTable {
         val cmd_in = Scanner(System.`in`)
         for (i in 0..3) {
             println("Please enter your name:")
-            players!![i]?.name = cmd_in.nextLine()
-            players!![i]?.id = i
+//            players!![i]?.name = cmd_in.nextLine()
+//            players!![i]?.id = i
         }
 
     }
@@ -38,8 +38,9 @@ class PokerGameTable {
     fun sortDiscardsIntoDeck() {}
     fun allotCardsToPlayers() {
         for (i in 0..51) {
-            players!![i % 4]!!.cards.push(deck!![i])
-            if (deck!![i]!!.suit == 0 && deck!![i]!!.rank == 2)
+            //players!![i % 4]!!.cards.push(deck!![i])
+            deck!![i]?.let { players!![i % 4]!!.cards.push(it) }
+            if (deck!![i]!!.getSuit() == 0 && deck!![i]!!.getRank() == 2)
                 turn = i % 4
         }
 

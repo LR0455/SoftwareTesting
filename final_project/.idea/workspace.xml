@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b845781f-4e7b-4148-9b05-475022e02764" name="Default Changelist" comment="" />
+    <list default="true" id="b845781f-4e7b-4148-9b05-475022e02764" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pokecards/elements/DeckTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pokecards/elements/PlayerTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/MainKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/MainKt$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/Server/Server$ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/Server/Server$ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/Server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/Server/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/big2/games/Big2Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/big2/games/Big2Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/pokecards/elements/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/pokecards/elements/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/pokecards/tables/PokerGameTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/pokecards/tables/PokerGameTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/big2/cardpatterns/CardPattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/cardpatterns/CardPattern.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternValidator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternValidator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternValidatorTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternValidatorTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/big2/games/Big2Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/games/Big2Game.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokecards/elements/Card.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokecards/elements/Card.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokecards/elements/CardTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokecards/elements/CardTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokecards/elements/Deck.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokecards/elements/Deck.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokecards/elements/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokecards/elements/Player.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokecards/tables/PokerGameTable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokecards/tables/PokerGameTable.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,12 +33,16 @@
       <list>
         <option value="Class" />
         <option value="Kotlin Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Kotlin File" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1aWAR4bD0zRCEorDbBWvqxdnGCI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,107 +54,110 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="big2.cardpatterns" />
       <recent name="pokecards.elements" />
+      <recent name="big2.cardpatterns" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration name="CardsPatternAnalyzerTest.testFourOfRank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CardTest">
+    <configuration name="CardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="big2.cardpatterns.*" />
+          <option name="PATTERN" value="pokecards.elements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="big2.cardpatterns" />
-      <option name="MAIN_CLASS_NAME" value="big2.cardpatterns.CardsPatternAnalyzerTest" />
-      <option name="METHOD_NAME" value="testFourOfRank" />
+      <option name="PACKAGE_NAME" value="pokecards.elements" />
+      <option name="MAIN_CLASS_NAME" value="pokecards.elements.CardTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardTest.testCompare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="final_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pokecards.elements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pokecards.elements" />
+      <option name="MAIN_CLASS_NAME" value="pokecards.elements.CardTest" />
+      <option name="METHOD_NAME" value="testCompare" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CardsPatternAnalyzerTest.testFullHouse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CardTest.testInvalidCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="big2.cardpatterns.*" />
+          <option name="PATTERN" value="pokecards.elements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="big2.cardpatterns" />
-      <option name="MAIN_CLASS_NAME" value="big2.cardpatterns.CardsPatternAnalyzerTest" />
-      <option name="METHOD_NAME" value="testFullHouse" />
+      <option name="PACKAGE_NAME" value="pokecards.elements" />
+      <option name="MAIN_CLASS_NAME" value="pokecards.elements.CardTest" />
+      <option name="METHOD_NAME" value="testInvalidCard" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CardsPatternAnalyzerTest.testStraight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CardTest.testShow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="big2.cardpatterns.*" />
+          <option name="PATTERN" value="pokecards.elements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="big2.cardpatterns" />
-      <option name="MAIN_CLASS_NAME" value="big2.cardpatterns.CardsPatternAnalyzerTest" />
-      <option name="METHOD_NAME" value="testStraight" />
+      <option name="PACKAGE_NAME" value="pokecards.elements" />
+      <option name="MAIN_CLASS_NAME" value="pokecards.elements.CardTest" />
+      <option name="METHOD_NAME" value="testShow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CardsPatternAnalyzerTest.testStraightFlush" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeckTest.testSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="big2.cardpatterns.*" />
+          <option name="PATTERN" value="pokecards.elements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="big2.cardpatterns" />
-      <option name="MAIN_CLASS_NAME" value="big2.cardpatterns.CardsPatternAnalyzerTest" />
-      <option name="METHOD_NAME" value="testStraightFlush" />
+      <option name="PACKAGE_NAME" value="pokecards.elements" />
+      <option name="MAIN_CLASS_NAME" value="pokecards.elements.DeckTest" />
+      <option name="METHOD_NAME" value="testSort" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="final_project" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="JUnit.CardsPatternAnalyzerTest.testFourOfRank" />
-        <item itemvalue="JUnit.CardsPatternAnalyzerTest.testStraightFlush" />
-        <item itemvalue="JUnit.CardsPatternAnalyzerTest.testStraight" />
-        <item itemvalue="JUnit.CardsPatternAnalyzerTest.testFullHouse" />
+        <item itemvalue="JUnit.CardTest" />
+        <item itemvalue="JUnit.CardTest.testShow" />
+        <item itemvalue="JUnit.CardTest.testCompare" />
+        <item itemvalue="JUnit.CardTest.testInvalidCard" />
+        <item itemvalue="JUnit.DeckTest.testSort" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +187,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586843069857" />
+    <state x="1053" y="100" width="774" height="847" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588578312285">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1053" y="100" width="774" height="847" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588578312285" />
     <state x="1233" y="242" key="#com.intellij.ide.util.MemberChooser" timestamp="1586935770454">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -171,22 +203,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587016724840" />
-    <state width="1877" height="138" key="GridCell.Tab.0.bottom" timestamp="1587445247750">
+    <state width="914" height="323" key="GridCell.Tab.0.bottom" timestamp="1588581869449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587445247750" />
-    <state width="1877" height="138" key="GridCell.Tab.0.center" timestamp="1587445247750">
+    <state width="914" height="323" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588581869449" />
+    <state width="914" height="323" key="GridCell.Tab.0.center" timestamp="1588581869449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587445247750" />
-    <state width="1877" height="138" key="GridCell.Tab.0.left" timestamp="1587445247750">
+    <state width="914" height="323" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588581869449" />
+    <state width="914" height="323" key="GridCell.Tab.0.left" timestamp="1588581869449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587445247750" />
-    <state width="1877" height="138" key="GridCell.Tab.0.right" timestamp="1587445247750">
+    <state width="914" height="323" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588581869449" />
+    <state width="914" height="323" key="GridCell.Tab.0.right" timestamp="1588581869449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587445247750" />
+    <state width="914" height="323" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588581869449" />
     <state x="653" y="195" key="SettingsEditor" timestamp="1587019879791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -199,17 +231,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="506" y="156" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587445240025" />
-    <state x="1039" y="237" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1587023255871">
+    <state x="1039" y="237" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1588578860845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1039" y="237" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587023255871" />
+    <state x="1039" y="237" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588578860845" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1587108593857">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587108593857" />
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1586922856847">
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1588580195139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586922856847" />
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588580195139" />
   </component>
 </project>

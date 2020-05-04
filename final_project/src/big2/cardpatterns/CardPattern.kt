@@ -14,8 +14,8 @@ class CardPattern(var pattern: Int, var cards: Deck): Comparable<CardPattern?> {
 
                     cards.sort()
                     p.cards.sort()
-                    var cmp_c1 = if (cards[0]?.rank == 2 && cards[5-2]?.rank == 0) cards[2] else cards[5-1]
-                    var cmp_c2 = if (p.cards[0]?.rank == 2 && p.cards[5-2]?.rank == 0) p.cards[2] else p.cards[5-1]
+                    var cmp_c1 = if (cards[0]?.getRank() == 2 && cards[5-2]?.getRank() == 0) cards[2] else cards[5-1]
+                    var cmp_c2 = if (p.cards[0]?.getRank() == 2 && p.cards[5-2]?.getRank() == 0) p.cards[2] else p.cards[5-1]
                     if (cmp_c1 != null) {
                         return if (cmp_c1 > cmp_c2) 1 else -1
                     }
@@ -36,13 +36,13 @@ class CardPattern(var pattern: Int, var cards: Deck): Comparable<CardPattern?> {
                 if (p != null) { // invalid
                     if (pattern != p.pattern) return -1
                 }
-                var max_c1 = cards[0]?.rank
-                if (cards[1]?.rank != cards[2]?.rank)
-                    max_c1 = cards[3]?.rank
-                var max_c2 = p?.cards?.get(0)!!.rank
+                var max_c1 = cards[0]?.getRank()
+                if (cards[1]?.getRank() != cards[2]?.getRank())
+                    max_c1 = cards[3]?.getRank()
+                var max_c2 = p?.cards?.get(0)!!.getRank()
                 if (p != null) {
-                    if (p.cards[1]!!.rank != p.cards[2]!!.rank)
-                        max_c2 = p.cards[3]!!.rank
+                    if (p.cards[1]!!.getRank() != p.cards[2]!!.getRank())
+                        max_c2 = p.cards[3]!!.getRank()
                 }
                 if (max_c1 != null) {
                     return if (max_c1 > max_c2) 1 else -1

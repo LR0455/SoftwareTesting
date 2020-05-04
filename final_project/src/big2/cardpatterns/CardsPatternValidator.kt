@@ -18,7 +18,7 @@ class CardsPatternValidator {
         var counts = Array<Int>(13) {i -> 0}
         var four = false
         for (i in 0..cards.size-1)
-            counts[cards[i]?.rank!!] ++
+            counts[cards[i]?.getRank()!!] ++
         for (i in 0..12)
             if (counts[i] == 4)
                 four = true
@@ -32,7 +32,7 @@ class CardsPatternValidator {
         var three = false
         var two = false
         for (i in 0..cards.size-1)
-            counts[cards[i]?.rank!!] ++
+            counts[cards[i]?.getRank()!!] ++
         for (i in 0..12) {
             if (counts[i] == 3)
                 three = true
@@ -47,7 +47,7 @@ class CardsPatternValidator {
         if (isStraight(cards) == false)
             return false
         for (i in 1..cards.size-1)
-            if (cards[i-1]!!.suit != cards[i]!!.suit)
+            if (cards[i-1]!!.getSuit() != cards[i]!!.getSuit())
                 return false
         return true
     }
@@ -55,15 +55,15 @@ class CardsPatternValidator {
         if (cards.size != 5) return false
         var exist = Array<Boolean>(13){i -> false}
         for (i in 0..cards.size-1) {
-            if (exist[cards[i]?.rank!!] == true) // same
+            if (exist[cards[i]?.getRank()!!] == true) // same
                 return false
-            exist[cards[i]?.rank!!] = true
+            exist[cards[i]?.getRank()!!] = true
         }
 
         // continuous
         var left = 0
         var right = 0
-        var index = cards[0]?.rank
+        var index = cards[0]?.getRank()
         for (i in 1..4) {
             var pos = (index!! - i + 13) % 13
             if (exist[pos] == false)
@@ -85,7 +85,7 @@ class CardsPatternValidator {
         return true
     }
     fun isPair(cards: Deck):Boolean {
-        return if (cards.size == 2 && (cards.get(0)!!.rank == cards.get(1)!!.rank)) true else false
+        return if (cards.size == 2 && (cards.get(0)!!.getRank() == cards.get(1)!!.getRank())) true else false
     }
     fun isSingle(cards: Deck):Boolean {
         return if (cards.size == 1) true else false
