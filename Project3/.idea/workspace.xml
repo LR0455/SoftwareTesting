@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a548fd96-2ba4-484f-b692-34f2568597b6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZhHR0emg8Ef8le0EVZeGCvU3Ge" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../objenesis-2.6.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SoftwareTesting2020Test">
+    <configuration name="SoftwareTesting2020Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SoftwareTesting2020Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoftwareTesting2020Test.test_b" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SoftwareTesting2020Test" />
+      <option name="METHOD_NAME" value="test_b" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoftwareTesting2020Test.test_c" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SoftwareTesting2020Test" />
+      <option name="METHOD_NAME" value="test_c" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoftwareTesting2020Test.test_d" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SoftwareTesting2020Test" />
+      <option name="METHOD_NAME" value="test_d" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoftwareTesting2020Test.test_e" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SoftwareTesting2020Test" />
+      <option name="METHOD_NAME" value="test_e" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SoftwareTesting2020Test" />
+        <item itemvalue="JUnit.SoftwareTesting2020Test.test_e" />
+        <item itemvalue="JUnit.SoftwareTesting2020Test.test_d" />
+        <item itemvalue="JUnit.SoftwareTesting2020Test.test_b" />
+        <item itemvalue="JUnit.SoftwareTesting2020Test.test_c" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a548fd96-2ba4-484f-b692-34f2568597b6" name="Default Changelist" comment="" />
+      <created>1585284393998</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585284393998</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1167" y="281" key="FileChooserDialogImpl" timestamp="1586840929758">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1167" y="281" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586840929758" />
+    <state width="1019" height="347" key="GridCell.Tab.0.bottom" timestamp="1585621163080">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1019" height="347" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1585621163080" />
+    <state width="1147" height="311" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585545183136" />
+    <state width="1019" height="347" key="GridCell.Tab.0.center" timestamp="1585621163079">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1019" height="347" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1585621163079" />
+    <state width="1147" height="311" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585545183136" />
+    <state width="1019" height="347" key="GridCell.Tab.0.left" timestamp="1585621163079">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1019" height="347" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1585621163079" />
+    <state width="1147" height="311" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585545183136" />
+    <state width="1019" height="347" key="GridCell.Tab.0.right" timestamp="1585621163080">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1019" height="347" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1585621163080" />
+    <state width="1147" height="311" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585545183136" />
+    <state width="1019" height="347" key="GridCell.Tab.1.bottom" timestamp="1585621163080">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1019" height="347" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1585621163080" />
+    <state width="1019" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585298030417" />
+    <state width="1019" height="347" key="GridCell.Tab.1.center" timestamp="1585621163080">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1019" height="347" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1585621163080" />
+    <state width="1019" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585298030417" />
+    <state width="1019" height="347" key="GridCell.Tab.1.left" timestamp="1585621163080">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1019" height="347" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1585621163080" />
+    <state width="1019" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585298030417" />
+    <state width="1019" height="347" key="GridCell.Tab.1.right" timestamp="1585621163080">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1019" height="347" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1585621163080" />
+    <state width="1019" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585298030417" />
+    <state x="867" y="101" key="SettingsEditor" timestamp="1585298282661">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="867" y="101" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585298282661" />
+    <state x="1141" y="422" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585297016535">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1141" y="422" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1585297016535" />
+    <state x="731" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585296898257">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="731" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585296898257" />
+    <state x="53" y="0" key="new project wizard" timestamp="1586840964750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="53" y="0" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586840964750" />
+    <state x="986" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1585544360420">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="986" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585544360420" />
+  </component>
+</project>
