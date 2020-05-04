@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b2b16e48-7c29-44fc-9bc4-4524208779c6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bHuDNcW9MOTBBJBZjF2K9Hzsan" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BoundedQueueTest.test_toString_F">
+    <configuration name="BoundedQueueTest.test_isEmpty_F" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BoundedQueueTest" />
+      <option name="METHOD_NAME" value="test_isEmpty_F" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoundedQueueTest.test_isFull_F" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BoundedQueueTest" />
+      <option name="METHOD_NAME" value="test_isFull_F" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoundedQueueTest.test_isFull_T" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BoundedQueueTest" />
+      <option name="METHOD_NAME" value="test_isFull_T" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoundedQueueTest.test_toString_F" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BoundedQueueTest" />
+      <option name="METHOD_NAME" value="test_toString_F" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoundedQueueTest.test_toString_T" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BoundedQueueTest" />
+      <option name="METHOD_NAME" value="test_toString_T" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BoundedQueueTest.test_toString_F" />
+        <item itemvalue="JUnit.BoundedQueueTest.test_toString_T" />
+        <item itemvalue="JUnit.BoundedQueueTest.test_isFull_F" />
+        <item itemvalue="JUnit.BoundedQueueTest.test_isFull_T" />
+        <item itemvalue="JUnit.BoundedQueueTest.test_isEmpty_F" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2b16e48-7c29-44fc-9bc4-4524208779c6" name="Default Changelist" comment="" />
+      <created>1588301219548</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588301219548</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="819" height="284" key="GridCell.Tab.0.bottom" timestamp="1588568924733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="819" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588568924733" />
+    <state width="819" height="284" key="GridCell.Tab.0.center" timestamp="1588568924733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="819" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588568924733" />
+    <state width="819" height="284" key="GridCell.Tab.0.left" timestamp="1588568924732">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="819" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588568924732" />
+    <state width="819" height="284" key="GridCell.Tab.0.right" timestamp="1588568924733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="819" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588568924733" />
+    <state x="927" y="429" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588301338700">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="927" y="429" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1588301338700" />
+    <state x="997" y="246" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588301340472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="997" y="246" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588301340472" />
+  </component>
+</project>
