@@ -38,11 +38,15 @@ class PokerGameTable {
 
     }
 
-    fun sortDiscardsIntoDeck() {}
+    fun sortDiscardsIntoDeck() {
+        deck?.clear()
+        discards?.sort()
+        deck!!.addAll(discards!!)
+        discards!!.clear()
+    }
     fun allotCardsToPlayers() {
         for (i in 0..51) {
-            //players[i % player_num].cards.push(deck[i])
-            deck!![i]?.let { players!![i % player_num]!!.cards.push(it) }
+            players!![i % player_num]!!.cards.push(deck!![i])
             // C3 -> first turn
             if (deck!![i]!!.getSuit() == 0 && deck!![i]!!.getRank() == 2)
                 turn = i % player_num
@@ -53,6 +57,11 @@ class PokerGameTable {
             players!![i]?.cards!!.sort()
     }
 
-    fun discardCard(c: Card?) {}
-    fun discardCards(c: Array<Card?>?) {}
+    fun discardCards() {
+        var ply_cards = players!![turn]?.cards
+        if (ply_cards != null) {
+            ply_cards.removeAll(discards!!)
+        }
+        sortDiscardsIntoDeck()
+    }
 }

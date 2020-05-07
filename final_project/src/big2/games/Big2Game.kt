@@ -59,7 +59,6 @@ class Big2Game {
             // player choose cards' option
             println("Please choose cards that you want :")
             var line = cmd_in.nextLine().replace("\\s".toRegex(), "")
-            var cards = Deck()
             var max_num = player?.cards?.size
 
             // pass
@@ -89,18 +88,19 @@ class Big2Game {
                 var pos = -1
                 if (line[i] in 'a'..'z')
                     pos = line[i].toInt() - 'a'.toInt()
-                cards.push(table.players?.get(table.turn)?.cards?.get(pos))
+                table.discards?.push(player?.cards?.get(pos))
             }
 
-            for (i in 0..cards.size-1)
-                print("${cards[i]?.show()} ")
+            for (i in 0..table.discards!!.size-1)
+                print("${table.discards?.get(i)?.show()} ")
             println()
 
             var manager = CardsCommitManager()
-            var result = table.deck?.let { table.players!!.get(table.turn)?.cards?.let { it1 -> manager.commit(cards, it, it1) } }
+            var result = manager.commit(table.discards!!, table.deck!!, player!!.cards)
             if (result == false)
                 println("You choose wrong cards, please choose again.")
             else {
+                table.discardCards()
                 if (player != null)
                     if (player.cards!!.empty()) {
                         print("${player?.name} win!!")

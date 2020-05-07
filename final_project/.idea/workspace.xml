@@ -3,21 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b845781f-4e7b-4148-9b05-475022e02764" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/final_project/MainKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/final_project/MainKt$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/final_project/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/MainKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/final_project/big2/games/Big2Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/big2/games/Big2Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/final_project/pokecards/elements/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/pokecards/elements/Card.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/final_project/pokecards/elements/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/pokecards/elements/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/final_project/pokecards/tables/PokerGameTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/pokecards/tables/PokerGameTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternAnalyzerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternAnalyzerTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternValidator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternValidator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternValidatorTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternValidatorTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/big2/games/Big2Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/games/Big2Game.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/big2/games/CardsCommitManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/games/CardsCommitManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokecards/elements/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokecards/elements/Player.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokecards/tables/PokerGameTable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokecards/tables/PokerGameTable.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +57,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CardsPatternValidatorTest">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="CardsPatternValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final_project" />
       <extension name="coverage">
@@ -80,22 +69,6 @@
       <option name="PACKAGE_NAME" value="big2.cardpatterns" />
       <option name="MAIN_CLASS_NAME" value="big2.cardpatterns.CardsPatternValidatorTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CardsPatternValidatorTest.isFourOfRank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="final_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="big2.cardpatterns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="big2.cardpatterns" />
-      <option name="MAIN_CLASS_NAME" value="big2.cardpatterns.CardsPatternValidatorTest" />
-      <option name="METHOD_NAME" value="isFourOfRank" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,13 +121,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="final_project" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="JUnit.CardsPatternValidatorTest" />
         <item itemvalue="JUnit.CardsPatternValidatorTest.isStraight" />
         <item itemvalue="JUnit.CardsPatternValidatorTest.isStraightFlush" />
         <item itemvalue="JUnit.CardsPatternValidatorTest.isFullHouse" />
-        <item itemvalue="JUnit.CardsPatternValidatorTest.isFourOfRank" />
       </list>
     </recent_temporary>
   </component>
@@ -200,22 +186,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587016724840" />
-    <state width="1877" height="389" key="GridCell.Tab.0.bottom" timestamp="1588756391649">
+    <state width="912" height="260" key="GridCell.Tab.0.bottom" timestamp="1588834939732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="389" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588756391649" />
-    <state width="1877" height="389" key="GridCell.Tab.0.center" timestamp="1588756391649">
+    <state width="912" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588834939732" />
+    <state width="912" height="260" key="GridCell.Tab.0.center" timestamp="1588834939732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="389" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588756391649" />
-    <state width="1877" height="389" key="GridCell.Tab.0.left" timestamp="1588756391649">
+    <state width="912" height="260" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588834939732" />
+    <state width="912" height="260" key="GridCell.Tab.0.left" timestamp="1588834939732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="389" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588756391649" />
-    <state width="1877" height="389" key="GridCell.Tab.0.right" timestamp="1588756391649">
+    <state width="912" height="260" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588834939732" />
+    <state width="912" height="260" key="GridCell.Tab.0.right" timestamp="1588834939732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="389" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588756391649" />
+    <state width="912" height="260" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588834939732" />
     <state x="653" y="195" key="SettingsEditor" timestamp="1587019879791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
