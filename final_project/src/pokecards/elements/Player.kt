@@ -2,7 +2,7 @@ package pokecards.elements
 
 class Player {
     private var id: Int
-    private var name: String
+    var name: String
     var cards: Deck
 
     init {

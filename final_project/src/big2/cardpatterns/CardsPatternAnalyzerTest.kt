@@ -28,9 +28,9 @@ internal class CardsPatternAnalyzerTest {
                         var deck = Deck()
                         deck.push(c2)
                         if (c1 < c2)
-                            assertEquals(-1, anly.analyzer(cards, deck))
+                            assertEquals(false, anly.analyzer(cards, deck))
                         else
-                            assertEquals(1, anly.analyzer(cards, deck))
+                            assertEquals(true, anly.analyzer(cards, deck))
                     }
 
     }
@@ -53,9 +53,9 @@ internal class CardsPatternAnalyzerTest {
                         deck.push(c3)
                         deck.push(c4)
                         if (c2 < c4)
-                            assertEquals(-1, anly.analyzer(cards, deck))
+                            assertEquals(false, anly.analyzer(cards, deck))
                         else
-                            assertEquals(1, anly.analyzer(cards, deck))
+                            assertEquals(true, anly.analyzer(cards, deck))
                     }
 
     }
@@ -73,20 +73,21 @@ internal class CardsPatternAnalyzerTest {
                 }
                 var cmp_c1 = if (i == 1) cards[0] else cards[4]
                 var cmp_c2 = if (j == 1) deck[0] else deck[4]
+
                 println()
                 showCards(cards)
                 showCards(deck)
                 print("test compare ")
-                cmp_c1?.show()
+                print(cmp_c1?.show())
                 print(" ")
-                cmp_c2?.show()
+                print(cmp_c2?.show())
                 println()
 
                 if (cmp_c1 != null) {
                     if (cmp_c1 < cmp_c2)
-                        assertEquals(-1, anly.analyzer(cards, deck))
+                        assertEquals(false, anly.analyzer(cards, deck))
                     else
-                        assertEquals(1, anly.analyzer(cards, deck))
+                        assertEquals(true, anly.analyzer(cards, deck))
                 }
             }
 
@@ -108,9 +109,9 @@ internal class CardsPatternAnalyzerTest {
 
                 if (cmp_c1 != null) {
                     if (cmp_c1 < cmp_c2)
-                        assertEquals(-1, anly.analyzer(cards, deck))
+                        assertEquals(false, anly.analyzer(cards, deck))
                     else
-                        assertEquals(1, anly.analyzer(cards, deck))
+                        assertEquals(true, anly.analyzer(cards, deck))
                 }
             }
         // test StraightFlush and non-StraightFlush
@@ -121,9 +122,9 @@ internal class CardsPatternAnalyzerTest {
         // test StraightFlush and (Single or Pair)
         for (i in 0..12) {
             deck.push(Card(0, i))
-            assertEquals(1, anly.analyzer(cards, deck))
+            assertEquals(true, anly.analyzer(cards, deck))
             deck.push(Card(1, i))
-            assertEquals(1, anly.analyzer(cards, deck))
+            assertEquals(true, anly.analyzer(cards, deck))
             deck.clear()
         }
 
@@ -134,7 +135,7 @@ internal class CardsPatternAnalyzerTest {
                 deck.push(Card(j, i))
             for (j in 0..1)
                 deck.push(Card(j, 12))
-            assertEquals(1, anly.analyzer(cards, deck))
+            assertEquals(true, anly.analyzer(cards, deck))
             deck.clear()
 
             // FourOfRank
@@ -142,7 +143,7 @@ internal class CardsPatternAnalyzerTest {
                 deck.push(Card(j, i))
             for (j in 0..0)
                 deck.push(Card(j, 12))
-            assertEquals(1, anly.analyzer(cards, deck))
+            assertEquals(true, anly.analyzer(cards, deck))
             deck.clear()
         }
 
@@ -150,7 +151,7 @@ internal class CardsPatternAnalyzerTest {
         for (i in 0..9) {
             for (j in 0..4)
                 deck.push(Card(nextInt(4), (i+j)%13))
-            assertEquals(1, anly.analyzer(cards, deck))
+            assertEquals(true, anly.analyzer(cards, deck))
             deck.clear()
         }
     }
@@ -170,9 +171,9 @@ internal class CardsPatternAnalyzerTest {
                 deck.push(Card(0, (j+1)%13))
 
                 if (cards[0]!! < deck[0])
-                    assertEquals(-1, anly.analyzer(cards, deck))
+                    assertEquals(false, anly.analyzer(cards, deck))
                 else
-                    assertEquals(1, anly.analyzer(cards, deck))
+                    assertEquals(true, anly.analyzer(cards, deck))
             }
 
         // test FourOfRank and non-FourOfRank
@@ -184,9 +185,9 @@ internal class CardsPatternAnalyzerTest {
         // test FourOfRank and (Single or Pair)
         for (i in 0..12) {
             deck.push(Card(0, i))
-            assertEquals(1, anly.analyzer(cards, deck))
+            assertEquals(true, anly.analyzer(cards, deck))
             deck.push(Card(1, i))
-            assertEquals(1, anly.analyzer(cards, deck))
+            assertEquals(true, anly.analyzer(cards, deck))
             deck.clear()
         }
 
@@ -196,7 +197,7 @@ internal class CardsPatternAnalyzerTest {
                 deck.push(Card(j, i))
             for (j in 0..1)
                 deck.push(Card(j, 12))
-            assertEquals(1, anly.analyzer(cards, deck))
+            assertEquals(true, anly.analyzer(cards, deck))
             deck.clear()
         }
 
@@ -204,12 +205,12 @@ internal class CardsPatternAnalyzerTest {
         for (i in 0..9) {
             for (j in 0..4)
                 deck.push(Card(nextInt(4), (i+j)%13))
-            assertEquals(1, anly.analyzer(cards, deck))
+            assertEquals(true, anly.analyzer(cards, deck))
             deck.clear()
 
             for (j in 0..4)
                 deck.push(Card(0, (i+j)%13))
-            assertEquals(-1, anly.analyzer(cards, deck))
+            assertEquals(false, anly.analyzer(cards, deck))
             deck.clear()
         }
     }
@@ -231,9 +232,9 @@ internal class CardsPatternAnalyzerTest {
                 }
 
                 if (i < j)
-                    assertEquals(-1, anly.analyzer(cards, deck))
+                    assertEquals(false, anly.analyzer(cards, deck))
                 else
-                    assertEquals(1, anly.analyzer(cards, deck))
+                    assertEquals(true, anly.analyzer(cards, deck))
             }
 
 

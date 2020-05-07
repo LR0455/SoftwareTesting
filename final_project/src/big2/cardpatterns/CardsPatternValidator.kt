@@ -13,6 +13,14 @@ class CardsPatternValidator {
         if (isSingle(cards)) return 5
         return -1
     }
+    fun isStraightFlush(cards: Deck):Boolean {
+        if (isStraight(cards) == false)
+            return false
+        for (i in 1..cards.size-1)
+            if (cards[i-1]!!.getSuit() != cards[i]!!.getSuit())
+                return false
+        return true
+    }
     fun isFourOfRank(cards: Deck):Boolean {
         if (cards.size != 5) return false
         var counts = Array<Int>(13) {i -> 0}
@@ -42,14 +50,6 @@ class CardsPatternValidator {
         if (three && two)
             return true
         return false
-    }
-    fun isStraightFlush(cards: Deck):Boolean {
-        if (isStraight(cards) == false)
-            return false
-        for (i in 1..cards.size-1)
-            if (cards[i-1]!!.getSuit() != cards[i]!!.getSuit())
-                return false
-        return true
     }
     fun isStraight(cards: Deck):Boolean {
         if (cards.size != 5) return false

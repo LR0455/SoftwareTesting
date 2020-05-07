@@ -2,24 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b845781f-4e7b-4148-9b05-475022e02764" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pokecards/elements/DeckTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pokecards/elements/PlayerTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/final_project/MainKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/MainKt$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/final_project/Server/Server$ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/Server/Server$ClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/final_project/Server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/Server/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/MainKt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/MainKt$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/MainKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/final_project/big2/games/Big2Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/big2/games/Big2Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/pokecards/elements/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/pokecards/elements/Card.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/final_project/pokecards/elements/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/pokecards/elements/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/final_project/pokecards/tables/PokerGameTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/pokecards/tables/PokerGameTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/big2/cardpatterns/CardPattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/cardpatterns/CardPattern.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternAnalyzer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternAnalyzerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternAnalyzerTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternValidator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternValidator.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternValidatorTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternValidatorTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/big2/games/Big2Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/games/Big2Game.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/big2/games/CardsCommitManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/games/CardsCommitManager.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokecards/elements/Card.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokecards/elements/Card.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokecards/elements/CardTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokecards/elements/CardTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokecards/elements/Deck.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokecards/elements/Deck.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokecards/elements/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokecards/elements/Player.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokecards/tables/PokerGameTable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokecards/tables/PokerGameTable.kt" afterDir="false" />
     </list>
@@ -71,81 +68,81 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CardTest">
-    <configuration name="CardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CardsPatternValidatorTest">
+    <configuration name="CardsPatternValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pokecards.elements.*" />
+          <option name="PATTERN" value="big2.cardpatterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pokecards.elements" />
-      <option name="MAIN_CLASS_NAME" value="pokecards.elements.CardTest" />
+      <option name="PACKAGE_NAME" value="big2.cardpatterns" />
+      <option name="MAIN_CLASS_NAME" value="big2.cardpatterns.CardsPatternValidatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CardTest.testCompare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CardsPatternValidatorTest.isFourOfRank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pokecards.elements.*" />
+          <option name="PATTERN" value="big2.cardpatterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pokecards.elements" />
-      <option name="MAIN_CLASS_NAME" value="pokecards.elements.CardTest" />
-      <option name="METHOD_NAME" value="testCompare" />
+      <option name="PACKAGE_NAME" value="big2.cardpatterns" />
+      <option name="MAIN_CLASS_NAME" value="big2.cardpatterns.CardsPatternValidatorTest" />
+      <option name="METHOD_NAME" value="isFourOfRank" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CardTest.testInvalidCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CardsPatternValidatorTest.isFullHouse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pokecards.elements.*" />
+          <option name="PATTERN" value="big2.cardpatterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pokecards.elements" />
-      <option name="MAIN_CLASS_NAME" value="pokecards.elements.CardTest" />
-      <option name="METHOD_NAME" value="testInvalidCard" />
+      <option name="PACKAGE_NAME" value="big2.cardpatterns" />
+      <option name="MAIN_CLASS_NAME" value="big2.cardpatterns.CardsPatternValidatorTest" />
+      <option name="METHOD_NAME" value="isFullHouse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CardTest.testShow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CardsPatternValidatorTest.isStraight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pokecards.elements.*" />
+          <option name="PATTERN" value="big2.cardpatterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pokecards.elements" />
-      <option name="MAIN_CLASS_NAME" value="pokecards.elements.CardTest" />
-      <option name="METHOD_NAME" value="testShow" />
+      <option name="PACKAGE_NAME" value="big2.cardpatterns" />
+      <option name="MAIN_CLASS_NAME" value="big2.cardpatterns.CardsPatternValidatorTest" />
+      <option name="METHOD_NAME" value="isStraight" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeckTest.testSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CardsPatternValidatorTest.isStraightFlush" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pokecards.elements.*" />
+          <option name="PATTERN" value="big2.cardpatterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pokecards.elements" />
-      <option name="MAIN_CLASS_NAME" value="pokecards.elements.DeckTest" />
-      <option name="METHOD_NAME" value="testSort" />
+      <option name="PACKAGE_NAME" value="big2.cardpatterns" />
+      <option name="MAIN_CLASS_NAME" value="big2.cardpatterns.CardsPatternValidatorTest" />
+      <option name="METHOD_NAME" value="isStraightFlush" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CardTest" />
-        <item itemvalue="JUnit.CardTest.testShow" />
-        <item itemvalue="JUnit.CardTest.testCompare" />
-        <item itemvalue="JUnit.CardTest.testInvalidCard" />
-        <item itemvalue="JUnit.DeckTest.testSort" />
+        <item itemvalue="JUnit.CardsPatternValidatorTest" />
+        <item itemvalue="JUnit.CardsPatternValidatorTest.isStraight" />
+        <item itemvalue="JUnit.CardsPatternValidatorTest.isStraightFlush" />
+        <item itemvalue="JUnit.CardsPatternValidatorTest.isFullHouse" />
+        <item itemvalue="JUnit.CardsPatternValidatorTest.isFourOfRank" />
       </list>
     </recent_temporary>
   </component>
@@ -203,22 +200,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587016724840" />
-    <state width="914" height="323" key="GridCell.Tab.0.bottom" timestamp="1588581869449">
+    <state width="1877" height="389" key="GridCell.Tab.0.bottom" timestamp="1588756391649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="323" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588581869449" />
-    <state width="914" height="323" key="GridCell.Tab.0.center" timestamp="1588581869449">
+    <state width="1877" height="389" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588756391649" />
+    <state width="1877" height="389" key="GridCell.Tab.0.center" timestamp="1588756391649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="323" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588581869449" />
-    <state width="914" height="323" key="GridCell.Tab.0.left" timestamp="1588581869449">
+    <state width="1877" height="389" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588756391649" />
+    <state width="1877" height="389" key="GridCell.Tab.0.left" timestamp="1588756391649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="323" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588581869449" />
-    <state width="914" height="323" key="GridCell.Tab.0.right" timestamp="1588581869449">
+    <state width="1877" height="389" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588756391649" />
+    <state width="1877" height="389" key="GridCell.Tab.0.right" timestamp="1588756391649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="323" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588581869449" />
+    <state width="1877" height="389" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588756391649" />
     <state x="653" y="195" key="SettingsEditor" timestamp="1587019879791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

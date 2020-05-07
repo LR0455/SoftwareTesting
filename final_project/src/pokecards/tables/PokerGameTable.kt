@@ -10,14 +10,17 @@ class PokerGameTable {
     var discards: Deck? = null
     var players: ArrayList<Player?>? = null
     var turn = 0
-    fun initTable() {
+    var player_num = 0
+    fun initTable(player_num: Int) {
+        if (player_num != 2 && player_num != 4) throw IllegalArgumentException("PokerGameTable.initTable")
         // initial
         deck = Deck()
         discards = Deck()
         players = ArrayList<Player?>()
         turn = 0
-        for (i in 0..3)
+        for (i in 0..player_num-1)
             players!!.add(Player())
+        this.player_num = player_num
 
         // generate card on the table
         for (i in 0..3)
@@ -27,10 +30,10 @@ class PokerGameTable {
 
         // player
         val cmd_in = Scanner(System.`in`)
-        for (i in 0..3) {
+        for (i in 0..player_num-1) {
             println("Please enter your name:")
-//            players!![i]?.name = cmd_in.nextLine()
-//            players!![i]?.id = i
+            var name = cmd_in.nextLine()
+            players!![i]?.modify(i, name)
         }
 
     }
@@ -38,16 +41,16 @@ class PokerGameTable {
     fun sortDiscardsIntoDeck() {}
     fun allotCardsToPlayers() {
         for (i in 0..51) {
-            //players!![i % 4]!!.cards.push(deck!![i])
-            deck!![i]?.let { players!![i % 4]!!.cards.push(it) }
+            //players[i % player_num].cards.push(deck[i])
+            deck!![i]?.let { players!![i % player_num]!!.cards.push(it) }
+            // C3 -> first turn
             if (deck!![i]!!.getSuit() == 0 && deck!![i]!!.getRank() == 2)
-                turn = i % 4
+                turn = i % player_num
         }
 
         deck?.clear()
-        for (i in 0..3)
+        for (i in 0..player_num-1)
             players!![i]?.cards!!.sort()
-
     }
 
     fun discardCard(c: Card?) {}

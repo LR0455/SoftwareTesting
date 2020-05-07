@@ -5,12 +5,9 @@ import pokecards.elements.Deck
 
 class CardsCommitManager {
 
-    fun pass() {
-
-    }
-    fun commit(cards: Deck, deck: Deck, ply_cards: Deck): Int {
+    fun commit(cards: Deck, deck: Deck, ply_cards: Deck): Boolean {
         var anly = CardsPatternAnalyzer()
-        if (anly.analyzer(cards, deck) == 1) {
+        if (anly.analyzer(cards, deck) == true) {
             deck.clear()
             for (i in 0..cards.size-1)
                 deck.push(cards[i])
@@ -22,8 +19,8 @@ class CardsCommitManager {
                     if (ply_cards[i] == cards[j])
                         ply_cards.removeAt(i)
                 }
-            return 1
+            return true
         }
-        return -1
+        return false
     }
 }

@@ -5,16 +5,16 @@ import pokecards.elements.Deck
 class CardsPatternAnalyzer {
     var vald = CardsPatternValidator()
 
-    fun analyzer(cards: Deck, deck: Deck): Int {
-        var v1 = vald.validator(cards)
-        if (deck.empty()) return if (v1 != -1) 1 else -1
+    fun analyzer(cards: Deck, deck: Deck): Boolean {
+        var card_valid = vald.validator(cards)
+        if (deck.empty()) return if (card_valid != -1) true else false
 
-        var v2 = vald.validator(deck)
+        var deck_valid = vald.validator(deck)
 
-        if (v1 == -1 || v2 == -1) return -1
+        if (card_valid == -1 || deck_valid == -1) return false
 
-        var cp1 = CardPattern(v1, cards)
-        var cp2 = CardPattern(v2, deck)
-        return if (cp1 > cp2) 1 else -1
+        var cards_cp = CardPattern(card_valid, cards)
+        var deck_cp = CardPattern(deck_valid, deck)
+        return if (cards_cp > deck_cp) true else false
     }
 }

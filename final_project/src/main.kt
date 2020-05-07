@@ -22,4 +22,8 @@ fun main() {
 //    }
     var game = Big2Game()
     game.startGame()
+//    for (i in 0..100) {
+//        if (i%10 == 0) println()
+//        print("${String.format("%3d", i)} ")
+//    }
 }
