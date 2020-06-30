@@ -10,4 +10,14 @@ class Deck : Stack<Card?>() {
     fun sort() {
         Collections.sort(this)
     }
+
+    fun show():String {
+        if (this.empty() == true) return ""
+
+        var str_cards = ""
+        for (i in 0..this.size-1)
+            str_cards += this[i]!!.show() + " "
+
+        return str_cards
+    }
 }

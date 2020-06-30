@@ -10,85 +10,59 @@ import kotlin.random.Random.Default.nextInt
 internal class CardsPatternAnalyzerTest {
 
     @Test
-    fun analyzer() {
-        var anly = CardsPatternAnalyzer()
-    }
-    @Test
     fun testSingle() {
         var anly = CardsPatternAnalyzer()
-        for (i in 0..3)
-            for (j in 0..12)
-                for (x in 0..3)
-                    for (y in 0..12) {
-                        if (i == x && j == y) continue
-                        var c1 = Card(x, y)
-                        var c2 = Card(i, j)
-                        var cards = Deck()
-                        cards.push(c1)
-                        var deck = Deck()
-                        deck.push(c2)
-                        if (c1 < c2)
-                            assertEquals(false, anly.analyzer(cards, deck))
-                        else
-                            assertEquals(true, anly.analyzer(cards, deck))
-                    }
-
+        for (i in 0..3) for (j in 0..12)
+            for (x in 0..3) for (y in 0..12) {
+                if (i == x && j == y) continue
+                var c1 = Card(x, y)
+                var c2 = Card(i, j)
+                var cards = Deck()
+                cards.push(c1)
+                var deck = Deck()
+                deck.push(c2)
+                assertEquals(c1 > c2, anly.analyzer(cards, deck))
+            }
     }
     @Test
     fun testPair() {
         var anly = CardsPatternAnalyzer()
-        for (i in 0..2)
-            for (j in 0..12)
-                for (x in 0..2)
-                    for (y in 0..12) {
-                        if (i == x && j == y) continue
-                        var c1 = Card(x, y)
-                        var c2 = Card(x+1, y)
-                        var c3 = Card(i, j)
-                        var c4 = Card(i+1, j)
-                        var cards = Deck()
-                        cards.push(c1)
-                        cards.push(c2)
-                        var deck = Deck()
-                        deck.push(c3)
-                        deck.push(c4)
-                        if (c2 < c4)
-                            assertEquals(false, anly.analyzer(cards, deck))
-                        else
-                            assertEquals(true, anly.analyzer(cards, deck))
-                    }
-
+        for (i in 0..2) for (j in 0..12)
+            for (x in 0..2) for (y in 0..12) {
+                if (i == x && j == y) continue
+                var c1 = Card(x, y)
+                var c2 = Card(x+1, y)
+                var c3 = Card(i, j)
+                var c4 = Card(i+1, j)
+                var cards = Deck()
+                cards.push(c1)
+                cards.push(c2)
+                var deck = Deck()
+                deck.push(c3)
+                deck.push(c4)
+                assertEquals(c2 > c4, anly.analyzer(cards, deck))
+            }
     }
     @Test
     fun testStraight() {
         var anly = CardsPatternAnalyzer()
+        var straight_rank = intArrayOf(0, 1, 3, 1, 2);
         for (i in 0..9)
             for (j in 0..9) {
                 if (i == j) continue
                 var cards = Deck()
                 var deck = Deck()
                 for (k in 0..4) {
-                    cards.push(Card(nextInt(4), (i + k) % 13))
-                    deck.push(Card(nextInt(4), (j + k) % 13))
+                    cards.push(Card(straight_rank[k], (i + k) % 13))
+                    deck.push(Card(straight_rank[k], (j + k) % 13))
                 }
                 var cmp_c1 = if (i == 1) cards[0] else cards[4]
                 var cmp_c2 = if (j == 1) deck[0] else deck[4]
 
-                println()
-                showCards(cards)
-                showCards(deck)
-                print("test compare ")
-                print(cmp_c1?.show())
-                print(" ")
-                print(cmp_c2?.show())
-                println()
-
                 if (cmp_c1 != null) {
-                    if (cmp_c1 < cmp_c2)
-                        assertEquals(false, anly.analyzer(cards, deck))
-                    else
-                        assertEquals(true, anly.analyzer(cards, deck))
+                    assertEquals(cmp_c1 > cmp_c2, anly.analyzer(cards, deck))
                 }
+
             }
 
     }
@@ -108,10 +82,7 @@ internal class CardsPatternAnalyzerTest {
                 var cmp_c2 = if (j == 1) deck[0] else deck[4]
 
                 if (cmp_c1 != null) {
-                    if (cmp_c1 < cmp_c2)
-                        assertEquals(false, anly.analyzer(cards, deck))
-                    else
-                        assertEquals(true, anly.analyzer(cards, deck))
+                    assertEquals(cmp_c1 > cmp_c2, anly.analyzer(cards, deck))
                 }
             }
         // test StraightFlush and non-StraightFlush
@@ -158,6 +129,7 @@ internal class CardsPatternAnalyzerTest {
     @Test
     fun testFourOfRank() {
         var anly = CardsPatternAnalyzer()
+
         for (i in 0..12)
             for (j in 0..12) {
                 if (i == j) continue
@@ -170,10 +142,7 @@ internal class CardsPatternAnalyzerTest {
                 cards.push(Card(0, (i+1)%13))
                 deck.push(Card(0, (j+1)%13))
 
-                if (cards[0]!! < deck[0])
-                    assertEquals(false, anly.analyzer(cards, deck))
-                else
-                    assertEquals(true, anly.analyzer(cards, deck))
+                assertEquals(cards[0]!! > deck[0], anly.analyzer(cards, deck))
             }
 
         // test FourOfRank and non-FourOfRank
@@ -202,9 +171,10 @@ internal class CardsPatternAnalyzerTest {
         }
 
         // test FourOfRank and (StraightFlush, Straight)
+        var straight_rank = intArrayOf(0, 1, 3, 1, 2);
         for (i in 0..9) {
             for (j in 0..4)
-                deck.push(Card(nextInt(4), (i+j)%13))
+                deck.push(Card(straight_rank[j], (i+j)%13))
             assertEquals(true, anly.analyzer(cards, deck))
             deck.clear()
 
@@ -217,29 +187,26 @@ internal class CardsPatternAnalyzerTest {
     @Test
     fun testFullHouse() {
         var anly = CardsPatternAnalyzer()
+
         for (i in 0..12)
             for (j in 0..12) {
                 if (i == j) continue
                 var cards = Deck()
                 var deck = Deck()
                 for (k in 0..2) {
-                    cards.push(Card(k, i))
-                    deck.push(Card(k, j))
-                }
-                for (k in 0..1) {
                     cards.push(Card(k, (i + 1) % 13))
                     deck.push(Card(k, (j + 1) % 13))
                 }
+                for (k in 0..1) {
+                    cards.push(Card(k, i))
+                    deck.push(Card(k, j))
+                }
+                assertEquals(cards[0]!! > deck[0], anly.analyzer(cards, deck))
 
-                if (i < j)
-                    assertEquals(false, anly.analyzer(cards, deck))
-                else
-                    assertEquals(true, anly.analyzer(cards, deck))
             }
 
-
     }
-
+    /*
     fun showCards(cards: Deck) {
         for (i in 0..cards.size-1) {
             cards[i]?.show()
@@ -247,4 +214,6 @@ internal class CardsPatternAnalyzerTest {
         }
         println()
     }
+
+     */
 }

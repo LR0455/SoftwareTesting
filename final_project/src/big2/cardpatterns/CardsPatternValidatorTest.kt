@@ -7,10 +7,6 @@ import kotlin.random.Random.Default.nextInt
 
 internal class CardsPatternValidatorTest {
     @org.junit.jupiter.api.Test
-    fun validator() {
-    }
-
-    @org.junit.jupiter.api.Test
     fun isFourOfRank() {
         var cpv = CardsPatternValidator()
         var d = Deck()

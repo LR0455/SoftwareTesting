@@ -1,7 +1,8 @@
 package pokecards.elements
 
 class Card(private var suit: Int, private var rank: Int) : Comparable<Card?> {
-    var suit_symbol = arrayOf("C", "D", "H", "S")
+    //var suit_symbol = arrayOf("C", "D", "H", "S")
+    var suit_symbol = arrayOf("♣", "♦", "♥", "♠")
     var rank_symbol = arrayOf("A", "2", "3", "4", "5",
                               "6", "7", "8", "9", "T",
                               "J", "Q", "K")

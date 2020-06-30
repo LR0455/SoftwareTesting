@@ -18,4 +18,12 @@ internal class DeckTest {
             }
     }
 
+    @org.junit.jupiter.api.Test
+    fun testShow() {
+        var d = Deck()
+        d.push(Card(0, 0))
+        d.push(Card(3, 1))
+        d.push(Card(2, 10))
+        assertEquals("CA S2 HJ ", d.show())
+    }
 }

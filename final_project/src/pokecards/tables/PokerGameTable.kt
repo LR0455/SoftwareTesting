@@ -27,15 +27,6 @@ class PokerGameTable {
             for (j in 0..12)
                 deck!!.push(Card(i, j))
         deck!!.shuffle()
-
-        // player
-        val cmd_in = Scanner(System.`in`)
-        for (i in 0..player_num-1) {
-            println("Please enter your name:")
-            var name = cmd_in.nextLine()
-            players!![i]?.modify(i, name)
-        }
-
     }
 
     fun sortDiscardsIntoDeck() {
@@ -44,6 +35,7 @@ class PokerGameTable {
         deck!!.addAll(discards!!)
         discards!!.clear()
     }
+
     fun allotCardsToPlayers() {
         for (i in 0..51) {
             players!![i % player_num]!!.cards.push(deck!![i])

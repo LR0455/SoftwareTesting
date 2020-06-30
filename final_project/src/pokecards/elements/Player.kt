@@ -22,4 +22,5 @@ class Player {
         var res = "name : $name, id : $id"
         return res
     }
+
 }

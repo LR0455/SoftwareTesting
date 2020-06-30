@@ -2,25 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b845781f-4e7b-4148-9b05-475022e02764" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Project7/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project7/src/test/features/divisor.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project7/src/test/features/zero.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project7/src/test/java/Divider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project7/src/test/java/MyStepdefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw1/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/Client/ClientSocket$ReadHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/Client/ClientSocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/Client/ClientSocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/META-INF/final_project.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/META-INF/final_project.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/Server/Server$ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/Server/Server$ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/Server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/Server/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/big2/cardpatterns/CardPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/big2/cardpatterns/CardPattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/big2/cardpatterns/CardsPatternAnalyzerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/big2/cardpatterns/CardsPatternAnalyzerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/big2/cardpatterns/CardsPatternValidatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/big2/cardpatterns/CardsPatternValidatorTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/final_project/big2/games/Big2Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/big2/games/Big2Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/pokecards/elements/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/pokecards/elements/Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/pokecards/elements/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/pokecards/elements/Deck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final_project/pokecards/elements/DeckTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/pokecards/elements/DeckTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/final_project/pokecards/tables/PokerGameTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final_project/pokecards/tables/PokerGameTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/big2/cardpatterns/CardPattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/cardpatterns/CardPattern.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternAnalyzerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternAnalyzerTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternValidatorTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/cardpatterns/CardsPatternValidatorTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/big2/games/Big2Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/games/Big2Game.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/big2/games/CardsCommitManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/big2/games/CardsCommitManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokecards/elements/Card.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokecards/elements/Card.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokecards/elements/Deck.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokecards/elements/Deck.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokecards/elements/DeckTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokecards/elements/DeckTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokecards/elements/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokecards/elements/Player.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokecards/tables/PokerGameTable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokecards/tables/PokerGameTable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw1/out/production/hw1/BoundedQueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/out/production/hw1/BoundedQueueTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw1/src/BoundedQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/src/BoundedQueueTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="363" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="final_project" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
         <option value="JUnit5 Test Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -57,7 +93,70 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
+  <component name="RunManager" selected="JUnit.CardsPatternValidatorTest">
+    <configuration name="CardsPatternAnalyzerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="final_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="big2.cardpatterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="big2.cardpatterns" />
+      <option name="MAIN_CLASS_NAME" value="big2.cardpatterns.CardsPatternAnalyzerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardsPatternAnalyzerTest.testFourOfRank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="final_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="big2.cardpatterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="big2.cardpatterns" />
+      <option name="MAIN_CLASS_NAME" value="big2.cardpatterns.CardsPatternAnalyzerTest" />
+      <option name="METHOD_NAME" value="testFourOfRank" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardsPatternAnalyzerTest.testSingle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="final_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="big2.cardpatterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="big2.cardpatterns" />
+      <option name="MAIN_CLASS_NAME" value="big2.cardpatterns.CardsPatternAnalyzerTest" />
+      <option name="METHOD_NAME" value="testSingle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardsPatternAnalyzerTest.testStraightFlush" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="final_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="big2.cardpatterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="big2.cardpatterns" />
+      <option name="MAIN_CLASS_NAME" value="big2.cardpatterns.CardsPatternAnalyzerTest" />
+      <option name="METHOD_NAME" value="testStraightFlush" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CardsPatternValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final_project" />
       <extension name="coverage">
@@ -73,74 +172,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CardsPatternValidatorTest.isFullHouse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="final_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="big2.cardpatterns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="big2.cardpatterns" />
-      <option name="MAIN_CLASS_NAME" value="big2.cardpatterns.CardsPatternValidatorTest" />
-      <option name="METHOD_NAME" value="isFullHouse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CardsPatternValidatorTest.isStraight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="final_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="big2.cardpatterns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="big2.cardpatterns" />
-      <option name="MAIN_CLASS_NAME" value="big2.cardpatterns.CardsPatternValidatorTest" />
-      <option name="METHOD_NAME" value="isStraight" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CardsPatternValidatorTest.isStraightFlush" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="final_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="big2.cardpatterns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="big2.cardpatterns" />
-      <option name="MAIN_CLASS_NAME" value="big2.cardpatterns.CardsPatternValidatorTest" />
-      <option name="METHOD_NAME" value="isStraightFlush" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="final_project" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="JUnit.CardsPatternAnalyzerTest" />
+      <item itemvalue="JUnit.CardsPatternAnalyzerTest.testFourOfRank" />
+      <item itemvalue="JUnit.CardsPatternAnalyzerTest.testSingle" />
+      <item itemvalue="JUnit.CardsPatternAnalyzerTest.testStraightFlush" />
+      <item itemvalue="JUnit.CardsPatternValidatorTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="JUnit.CardsPatternValidatorTest" />
-        <item itemvalue="JUnit.CardsPatternValidatorTest.isStraight" />
-        <item itemvalue="JUnit.CardsPatternValidatorTest.isStraightFlush" />
-        <item itemvalue="JUnit.CardsPatternValidatorTest.isFullHouse" />
+        <item itemvalue="JUnit.CardsPatternAnalyzerTest" />
+        <item itemvalue="JUnit.CardsPatternAnalyzerTest.testSingle" />
+        <item itemvalue="JUnit.CardsPatternAnalyzerTest.testFourOfRank" />
+        <item itemvalue="JUnit.CardsPatternAnalyzerTest.testStraightFlush" />
       </list>
     </recent_temporary>
   </component>
@@ -166,10 +211,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="924" y="149" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1587016323500" />
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586843069857">
+    <state x="320" y="148" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592471028504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586843069857" />
+    <state x="320" y="148" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592471028504" />
     <state x="1053" y="100" width="774" height="847" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588578312285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -182,26 +227,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1102" y="204" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587016080688" />
-    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1587016724840">
+    <state x="1219" y="178" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1588836770035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587016724840" />
-    <state width="912" height="260" key="GridCell.Tab.0.bottom" timestamp="1588834939732">
+    <state x="1219" y="178" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588836770035" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1593253894874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="912" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588834939732" />
-    <state width="912" height="260" key="GridCell.Tab.0.center" timestamp="1588834939732">
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593253894874" />
+    <state width="1877" height="356" key="GridCell.Tab.0.bottom" timestamp="1593424915526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="912" height="260" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588834939732" />
-    <state width="912" height="260" key="GridCell.Tab.0.left" timestamp="1588834939732">
+    <state width="1877" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593424915526" />
+    <state width="1877" height="356" key="GridCell.Tab.0.center" timestamp="1593424915526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="912" height="260" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588834939732" />
-    <state width="912" height="260" key="GridCell.Tab.0.right" timestamp="1588834939732">
+    <state width="1877" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593424915526" />
+    <state width="1877" height="356" key="GridCell.Tab.0.left" timestamp="1593424915526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="912" height="260" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588834939732" />
+    <state width="1877" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593424915526" />
+    <state width="1877" height="356" key="GridCell.Tab.0.right" timestamp="1593424915526">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593424915526" />
     <state x="653" y="195" key="SettingsEditor" timestamp="1587019879791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -210,10 +259,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="976" y="420" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1587016965826" />
-    <state x="506" y="156" key="new project wizard" timestamp="1587445240025">
+    <state x="506" y="156" key="new project wizard" timestamp="1593253904578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="506" y="156" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587445240025" />
+    <state x="506" y="156" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1593253904578" />
     <state x="1039" y="237" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1588578860845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -226,5 +275,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588580195139" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/final_project$CardsPatternValidatorTest.ic" NAME="CardsPatternValidatorTest Coverage Results" MODIFIED="1593420717466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>big2.cardpatterns.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/final_project$CardsPatternAnalyzerTest.ic" NAME="CardsPatternAnalyzerTest Coverage Results" MODIFIED="1593420604864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>big2.cardpatterns.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/final_project$PlayersKt.ic" NAME="PlayersKt Coverage Results" MODIFIED="1593408903790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

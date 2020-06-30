@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2b16e48-7c29-44fc-9bc4-4524208779c6" name="Default Changelist" comment="" />
+    <list default="true" id="b2b16e48-7c29-44fc-9bc4-4524208779c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../final_project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final_project/out/production/final_project/big2/games/Big2Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/../final_project/out/production/final_project/big2/games/Big2Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final_project/out/production/final_project/pokecards/elements/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/../final_project/out/production/final_project/pokecards/elements/Deck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final_project/out/production/final_project/pokecards/elements/DeckTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../final_project/out/production/final_project/pokecards/elements/DeckTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final_project/out/production/final_project/pokecards/tables/PokerGameTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../final_project/out/production/final_project/pokecards/tables/PokerGameTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final_project/src/big2/games/Big2Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../final_project/src/big2/games/Big2Game.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final_project/src/pokecards/elements/Deck.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../final_project/src/pokecards/elements/Deck.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final_project/src/pokecards/elements/DeckTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../final_project/src/pokecards/elements/DeckTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final_project/src/pokecards/elements/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../final_project/src/pokecards/elements/Player.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final_project/src/pokecards/tables/PokerGameTable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../final_project/src/pokecards/tables/PokerGameTable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hw1/BoundedQueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hw1/BoundedQueueTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BoundedQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoundedQueueTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +30,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1bHuDNcW9MOTBBJBZjF2K9Hzsan" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,9 +46,11 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -39,12 +60,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BoundedQueueTest.test_toString_F">
-    <configuration name="BoundedQueueTest.test_isEmpty_F" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BoundedQueueTest.testBounedQueue_F">
+    <configuration name="BoundedQueueTest.testBounedQueue_F" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hw1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BoundedQueueTest" />
-      <option name="METHOD_NAME" value="test_isEmpty_F" />
+      <option name="METHOD_NAME" value="testBounedQueue_F" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoundedQueueTest.testBounedQueue_T" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BoundedQueueTest" />
+      <option name="METHOD_NAME" value="testBounedQueue_T" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -55,16 +86,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BoundedQueueTest" />
       <option name="METHOD_NAME" value="test_isFull_F" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoundedQueueTest.test_isFull_T" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hw1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BoundedQueueTest" />
-      <option name="METHOD_NAME" value="test_isFull_T" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BoundedQueueTest.testBounedQueue_F" />
+        <item itemvalue="JUnit.BoundedQueueTest.testBounedQueue_T" />
         <item itemvalue="JUnit.BoundedQueueTest.test_toString_F" />
         <item itemvalue="JUnit.BoundedQueueTest.test_toString_T" />
         <item itemvalue="JUnit.BoundedQueueTest.test_isFull_F" />
-        <item itemvalue="JUnit.BoundedQueueTest.test_isFull_T" />
-        <item itemvalue="JUnit.BoundedQueueTest.test_isEmpty_F" />
       </list>
     </recent_temporary>
   </component>
@@ -114,22 +135,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="819" height="284" key="GridCell.Tab.0.bottom" timestamp="1588568924733">
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1588854637920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="819" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588568924733" />
-    <state width="819" height="284" key="GridCell.Tab.0.center" timestamp="1588568924733">
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588854637920" />
+    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1588854637920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="819" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588568924733" />
-    <state width="819" height="284" key="GridCell.Tab.0.left" timestamp="1588568924732">
+    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588854637920" />
+    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1588854637920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="819" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588568924732" />
-    <state width="819" height="284" key="GridCell.Tab.0.right" timestamp="1588568924733">
+    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588854637920" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1588854637920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="819" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588568924733" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588854637920" />
     <state x="927" y="429" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588301338700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -138,5 +159,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="997" y="246" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588301340472" />
+    <state x="336" y="136" key="new project wizard" timestamp="1589344298183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="336" y="136" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1589344298183" />
   </component>
 </project>
